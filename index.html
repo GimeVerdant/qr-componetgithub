@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- style 👍 -->
+  
+  <style>
+    /* media queries */
+
+/* Mobile view - 375px */
+@media (max-width: 375px) {
+    body {
+        padding: 15px;
+    }
+    
+    .card {
+        max-width: 100%;
+        padding: 16px;
+        border-radius: 15px;
+    }
+    
+    .qr-container {
+        border-radius: 8px;
+    }
+    
+    .qr-container img {
+        border-radius: 8px;
+    }
+    
+    h1 {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+    
+    p {
+        font-size: 14px;
+        padding: 5px 10px 15px;
+    }
+}
+
+/* Desktop view - 1440px and above */
+@media (min-width: 1440px) {
+    .card {
+        max-width: 360px;
+        padding: 22px;
+    }
+    
+    h1 {
+        font-size: 22px;
+        padding: 22px;
+    }
+    
+    p {
+        font-size: 16px;
+        padding: 12px 20px 20px;
+    }
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+
+            background: linear-gradient(135deg, #d4e4f0 0%, #c8d8e8 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+          .qr-container {
+          background-color: hsl(216, 100%, 61%);
+          border-radius: 10px;
+      
+        }
+        
+         .qr-container img {
+         width: 100%;
+        height: 100%;
+        object-fit: cover; /* or 'contain' to maintain aspect ratio */
+        display: block;
+        border-radius: 10px;
+
+}
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            max-width: 340px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+          font-size:20px;
+          padding:20px;
+        }
+        
+        p {
+          font-size: 15px;
+          color:grey;
+          padding:10px;
+        }
+        
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="qr-container"> <img src="images/image-qr-code.png"  alt="QR Code" alt="QR code no"></div>
+
+    <div>
+      <h1> Improve your front-end skills by building projects </h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+
+  </div> 
+  
+  <!-- <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">G</a>.
+    </footer> -->
+  
+</body>
+</html>
