@@ -41,7 +41,7 @@
          .qr-container img {
          width: 100%;
         height: 100%;
-        object-fit: cover; /* or 'contain' to maintain aspect ratio */
+        object-fit: contain; /* or 'contain' to maintain aspect ratio */
         display: block;
         border-radius: 10px;
 
@@ -50,14 +50,14 @@
             background: white;
             border-radius: 20px;
             padding: 20px;
-            max-width: 340px;
+            max-width: 320px;
             width: 100%;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
         h1 {
           font-size:20px;
-          padding:20px;
+          padding:10px;
         }
         
         p {
@@ -67,8 +67,8 @@
         }
 
     /* media queries */
-    /* Mobile view - 375px */
-@media (max-width: 375px) {
+    /* Mobile view - 320px */
+@media (max-width: 320px) {
     body {
         padding: 15px;
     }
@@ -101,17 +101,17 @@
 /* Desktop view - 1440px and above */
 @media (min-width: 1440px) {
     .card {
-        max-width: 320px;
+        max-width: 320px; 
         padding: 22px;
     }
     
     h1 {
-        font-size: 22px;
-        padding: 22px;
+        font-size: 20px;
+        padding: 10px;
     }
     
     p {
-        font-size: 16px;
+        font-size: 15px;
         padding: 12px 20px 20px;
     }
      
