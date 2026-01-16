@@ -10,18 +10,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  
 
-**Note: Delete this note and update the table of cusontents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.jpg)
 
 
 ### Links
@@ -38,6 +34,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Using GitHub and creating local repositories. Troubleshooting with Claude.
+Using GitHub and git. Troubleshooting with Claude.
 
 
